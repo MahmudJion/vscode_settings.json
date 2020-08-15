@@ -1,0 +1,118 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	"workbench.startupEditor": "newUntitledFile",
+	"explorer.confirmDelete": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"window.zoomLevel": 0,
+	"workbench.iconTheme": "vscode-icons",
+	"files.autoSave": "off",
+	"editor.minimap.enabled": true,
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+	"vsicons.projectDetection.autoReload": true,
+	"php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+	"php-cs-fixer.lastDownload": 1561323360197,
+    "phpformatter.pharPath": "C:\\Users\\Jion\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer.bat",
+    "php-cs-fixer.onsave": false,
+	"editor.formatOnSave": false,
+	"editor.renderWhitespace": "all",
+	"eslint.alwaysShowStatus": true,
+	// "eslint.autoFixOnSave": true,
+	"eslint.packageManager": "yarn",
+	// "eslint.validate": [
+	// 	"javascript",
+	// 	"javascriptreact",
+	// 	{
+	// 		"language": "vue",
+	// 		"autoFix": true
+	// 	}
+	// ],
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"html",
+		"typescriptreact"
+	],
+	"trailing-spaces.trimOnSave": true,
+	"emmet.excludeLanguages": [
+		"markdown",
+		"php"
+	],
+	"vsicons.dontShowNewVersionMessage": true,
+	"[php]": {},
+	"cSpell.enabledLanguageIds": [
+		"asciidoc",
+		"c",
+		"cpp",
+		"csharp",
+		"css",
+		"git-commit",
+		"go",
+		"handlebars",
+		"haskell",
+		"html",
+		"jade",
+		"java",
+		"javascript",
+		"javascriptreact",
+		"json",
+		"jsonc",
+		"latex",
+		"less",
+		"markdown",
+		"php",
+		"plaintext",
+		"python",
+		"pug",
+		"restructuredtext",
+		"rust",
+		"scala",
+		"scss",
+		"text",
+		"typescript",
+		"typescriptreact",
+		"yaml",
+		"yml",
+		"vue"
+	],
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur",
+		"editor.formatOnSave": false
+	},
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+    "javascript.updateImportsOnFileMove.enabled": "always",
+	"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+	"[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+	"typescript.npm": "C:\\Program Files\\nodejs",
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6"
+	  },
+	  "exclude": ["node_modules"],
+	  "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+	},
+	"files.associations": {
+        "*.jsx": "JavaScript React",
+        // "*.js": "javascriptreact"
+    },
+    "workbench.colorTheme": "NetBeans Light Theme",
+    "diffEditor.ignoreTrimWhitespace": false
+}
