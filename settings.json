@@ -41,7 +41,9 @@
 		"php"
 	],
 	"vsicons.dontShowNewVersionMessage": true,
-	"[php]": {},
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
 	"cSpell.enabledLanguageIds": [
 		"asciidoc",
 		"c",
@@ -85,8 +87,9 @@
 	},
 	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
 	"[vue]": {
-		"editor.defaultFormatter": "octref.vetur",
-		"editor.formatOnSave": false
+		// "editor.defaultFormatter": "octref.vetur",
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
@@ -94,12 +97,12 @@
 		"source.fixAll.eslint": true
 	},
     "javascript.updateImportsOnFileMove.enabled": "always",
-	"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
 	"[typescript]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true
     },
-	"typescript.npm": "C:\\Program Files\\nodejs",
+    "typescript.npm": "C:\\Program Files\\nodejs",
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "es6"
@@ -113,6 +116,13 @@
         "*.jsx": "JavaScript React",
         // "*.js": "javascriptreact"
     },
-    "workbench.colorTheme": "NetBeans Light Theme",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "workbench.colorTheme": "NetBeans Light Theme"
 }
