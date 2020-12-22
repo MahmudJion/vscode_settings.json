@@ -124,5 +124,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "javascript.implicitProjectConfig.experimentalDecorators": true,
-    "workbench.colorTheme": "NetBeans Light Theme"
+    "javascript.validate.enable": false,
+    "workbench.colorTheme": "NetBeans Light Theme",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
