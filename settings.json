@@ -4,11 +4,9 @@
     // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 	"workbench.startupEditor": "newUntitledFile",
 	"explorer.confirmDelete": false,
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"window.zoomLevel": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
 	"workbench.iconTheme": "vscode-icons",
-	"files.autoSave": "off",
-	"editor.minimap.enabled": true,
+    "files.autoSave": "off",
 	"workbench.statusBar.visible": true,
 	"workbench.activityBar.visible": true,
 	"vsicons.projectDetection.autoReload": true,
@@ -83,7 +81,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
 	"[vue]": {
@@ -113,8 +111,7 @@
         "**/bower_components": true
 	},
 	"files.associations": {
-        "*.jsx": "JavaScript React",
-        // "*.js": "javascriptreact"
+        "*.jsx": "javascriptreact"
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "files.exclude": {
@@ -123,16 +120,20 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "javascript.implicitProjectConfig.experimentalDecorators": true,
     "javascript.validate.enable": false,
-    "workbench.colorTheme": "NetBeans Light Theme",
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "cSpell.userWords": [
+        "Cheffy",
+        "antd",
         "browserslist",
         "csrf",
         "laravel"
     ],
-    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "NetBeans Light Theme"
 }
