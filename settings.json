@@ -98,7 +98,8 @@
     "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
 	"[typescript]": {
         "editor.formatOnSave": true,
-        "editor.formatOnPaste": true
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.npm": "C:\\Program Files\\nodejs",
 	"compilerOptions": {
@@ -130,5 +131,10 @@
     },
     "workbench.colorTheme": "NetBeans Light Theme",
     "workbench.editor.untitled.hint": "hidden",
-    "terminal.integrated.tabs.enabled": true
+    "terminal.integrated.tabs.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "cSpell.logLevel": "None",
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.customFolderDictionaries": [
+    ]
 }
