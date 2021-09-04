@@ -21,6 +21,7 @@
 	"editor.formatOnSave": false,
 	"editor.renderWhitespace": "all",
     "eslint.alwaysShowStatus": true,
+    "editor.bracketPairColorization.enabled": true,
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
@@ -88,13 +89,11 @@
 		"source.fixAll.eslint": true
 	},
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
 	"[typescript]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "typescript.npm": "C:\\Program Files\\nodejs",
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "es6"
@@ -127,13 +126,10 @@
     "security.workspace.trust.untrustedFiles": "open",
     "cSpell.logLevel": "None",
     "cSpell.diagnosticLevel": "Hint",
-    "cSpell.customFolderDictionaries": [
-    ],
+    "cSpell.customDictionaries": {
+    },
     "workbench.colorTheme": "NetBeans Light Theme",
     "liveServer.settings.donotShowInfoMsg": true,
-    "http.proxy": "",
-    "http.proxyAuthorization": null,
-    "http.proxyStrictSSL": false,
     "cSpell.enableFiletypes": [
         "!git-commit",
         "properties"
