@@ -126,13 +126,13 @@
     "security.workspace.trust.untrustedFiles": "open",
     "cSpell.logLevel": "None",
     "cSpell.diagnosticLevel": "Hint",
-    "cSpell.customDictionaries": {
-    },
+    "cSpell.customDictionaries": {},
     "workbench.colorTheme": "NetBeans Light Theme",
     "liveServer.settings.donotShowInfoMsg": true,
     "cSpell.enableFiletypes": [
         "!git-commit",
         "properties"
     ],
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "git.autofetch": true
 }
