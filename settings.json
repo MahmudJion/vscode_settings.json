@@ -152,5 +152,6 @@
         "${workspaceFolder}/libraries/**",
         "${workspaceFolder}/**"
     ],
-    "C_Cpp.intelliSenseEngine": "Tag Parser"
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "redhat.telemetry.enabled": true
 }
