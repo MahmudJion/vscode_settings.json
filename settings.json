@@ -86,6 +86,7 @@
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
 	"editor.codeActionsOnSave": {
+
 		"source.fixAll.eslint": true
 	},
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -153,5 +154,10 @@
         "${workspaceFolder}/**"
     ],
     "C_Cpp.intelliSenseEngine": "Tag Parser",
-    "redhat.telemetry.enabled": true
+    "redhat.telemetry.enabled": true,
+    "workbench.editorAssociations": {
+        "*.class": "default",
+        "*.doc": "default"
+    },
+    "git.ignoreRebaseWarning": true
 }
