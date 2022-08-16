@@ -16,7 +16,6 @@
 	"vsicons.projectDetection.autoReload": true,
 	"php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
 	"php-cs-fixer.lastDownload": 1561323360197,
-    "phpformatter.pharPath": "C:\\Users\\Jion\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer.bat",
     "php-cs-fixer.onsave": false,
 	"editor.formatOnSave": false,
 	"editor.renderWhitespace": "all",
@@ -86,7 +85,6 @@
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
 	"editor.codeActionsOnSave": {
-
 		"source.fixAll.eslint": true
 	},
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -95,11 +93,6 @@
         "editor.formatOnPaste": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-	"compilerOptions": {
-		"module": "commonjs",
-		"target": "es6"
-	  },
-	  "exclude": ["node_modules"],
 	  "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true
@@ -142,18 +135,6 @@
     "git.autofetch": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "C_Cpp.default.includePath": [
-        "C:/Program Files (x86)/Arduino/libraries/**",
-        "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/**",
-        "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/**",
-        "C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/5.4.0/include/**",
-        "C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard/**",
-        "C:/Users/lenovo/.platformio/packages/framework-arduinoavr/**",
-        "C:/Users/lenovo/Documents/Arduino/libraries/**",
-        "${workspaceFolder}/libraries/**",
-        "${workspaceFolder}/**"
-    ],
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "redhat.telemetry.enabled": true,
     "workbench.editorAssociations": {
         "*.class": "default",
