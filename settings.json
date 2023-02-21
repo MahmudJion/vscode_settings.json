@@ -125,7 +125,6 @@
     "cSpell.logLevel": "None",
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.customDictionaries": {},
-    "workbench.colorTheme": "NetBeans Light Theme",
     "liveServer.settings.donotShowInfoMsg": true,
     "cSpell.enableFiletypes": [
         "!git-commit",
@@ -138,7 +137,15 @@
     "redhat.telemetry.enabled": true,
     "workbench.editorAssociations": {
         "*.class": "default",
-        "*.doc": "default"
+        "*.doc": "default",
+        "*.pptx": "default"
     },
-    "git.ignoreRebaseWarning": true
+    "git.ignoreRebaseWarning": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "NetBeans Light Theme",
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
