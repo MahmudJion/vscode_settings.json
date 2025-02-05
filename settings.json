@@ -6,98 +6,98 @@
             "source": "Git Bash"
         }
     },
-	"workbench.startupEditor": "newUntitledFile",
-	"explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-	"workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "vscode-icons",
     "files.autoSave": "off",
-	"workbench.statusBar.visible": true,
-	"workbench.activityBar.visible": true,
-	"vsicons.projectDetection.autoReload": true,
-	"php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-	"php-cs-fixer.lastDownload": 1561323360197,
+    "workbench.statusBar.visible": true,
+    "vsicons.projectDetection.autoReload": true,
+    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1561323360197,
     "php-cs-fixer.onsave": false,
-	"editor.formatOnSave": false,
-	"editor.renderWhitespace": "all",
+    "editor.formatOnSave": false,
+    "editor.renderWhitespace": "all",
     "eslint.alwaysShowStatus": true,
     "editor.bracketPairColorization.enabled": true,
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"html",
-		"typescriptreact"
-	],
-	"trailing-spaces.trimOnSave": true,
-	"emmet.excludeLanguages": [
-		"markdown",
-		"php"
-	],
-	"vsicons.dontShowNewVersionMessage": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "typescriptreact"
+    ],
+    "trailing-spaces.trimOnSave": true,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
-	"cSpell.enabledLanguageIds": [
-		"asciidoc",
-		"c",
-		"cpp",
-		"csharp",
-		"css",
-		"git-commit",
-		"go",
-		"handlebars",
-		"haskell",
-		"html",
-		"jade",
-		"java",
-		"javascript",
-		"javascriptreact",
-		"json",
-		"jsonc",
-		"latex",
-		"less",
-		"markdown",
-		"php",
-		"plaintext",
-		"python",
-		"pug",
-		"restructuredtext",
-		"rust",
-		"scala",
-		"scss",
-		"text",
-		"typescript",
-		"typescriptreact",
-		"yaml",
-		"yml",
-		"vue"
-	],
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-	"[vue]": {
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml",
+        "vue"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "[vue]": {
         "editor.formatOnSave": false,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.insertSpaces": true,
-	"editor.detectIndentation": false,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
+    },
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+    "source.organizeLinkDefinitions": "always",
+        "source.fixAll.eslint": "explicit"
+    },
     "javascript.updateImportsOnFileMove.enabled": "always",
-	"[typescript]": {
+    "[typescript]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-	  "search.exclude": {
+    "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true
-	},
-	"files.associations": {
+    },
+    "files.associations": {
         "*.jsx": "javascriptreact"
     },
     "diffEditor.ignoreTrimWhitespace": false,
@@ -119,7 +119,6 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editor.untitled.hint": "hidden",
     "terminal.integrated.tabs.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "cSpell.logLevel": "None",
@@ -138,7 +137,8 @@
     "workbench.editorAssociations": {
         "*.class": "default",
         "*.doc": "default",
-        "*.pptx": "default"
+        "*.pptx": "default",
+        "*.pdf": "default"
     },
     "git.ignoreRebaseWarning": true,
     "[css]": {
@@ -147,5 +147,40 @@
     "workbench.colorTheme": "NetBeans Light Theme",
     "[python]": {
         "editor.formatOnType": true
-    }
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/lenovo/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "workbench.editor.empty.hint": "hidden",
+    "editor.language.colorizedBracketPairs": [],
+    "git.enableSmartCommit": true
 }
